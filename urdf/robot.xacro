@@ -78,7 +78,8 @@
         <geometry>
           <cylinder radius="${wheel_link_radius}" length="${wheel_link_length}"/>
         </geometry>
-        <origin rpy="0 0 0" xyz="pi_const/2 0 0"/>
+        <!-- Wheel orientation -->
+        <origin rpy="0 0 0" xyz="pi_const/2 0 0"/>  
       </visual>
 
       <collision>
